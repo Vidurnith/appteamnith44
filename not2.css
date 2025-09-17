@@ -1,0 +1,48 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(7,59,76,0.5),
+                 rgba(0,0,0,0.2)),
+                   url('background2.jpeg') no-repeat center/cover ;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color:aliceblue;
+}
+h2{
+    color:aquamarine;
+}
+h3{
+    color:antiquewhite
+}
+/* In your CSS file */
+.back-to-main {
+  /* Positioning */
+  position: fixed; /* Keeps the element in a fixed spot in the viewport */
+  top: 20px;       /* 20 pixels from the top of the screen */
+  left: 20px;      /* 20 pixels from the left of the screen */
+  z-index: 1000;   /* Ensures the button stays on top of other content */
+
+  /* Styling */
+  background-color: white;
+  border: 1px solid #ddd;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; /* Makes it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add a hover effect for interactivity */
+.back-to-main:hover {
+  background-color: #f0f0f0;
+   /* Slightly enlarges the button on hover */
+}
+.start{
+    margin-top: 60px;
+}
